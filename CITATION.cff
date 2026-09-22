@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: >-
+  If you use the code, figures, or numerical experiments in this repository,
+  please cite the accompanying paper listed in preferred-citation.
+type: software
+repository-code: 'https://github.com/PierreGuilbertF/fisher-rao-wasserstein-atlas'
+title: 'Fisher–Rao and Wasserstein–Otto: A Comparative Atlas — Scripts and Figures'
+authors:
+  - family-names: Guilbert
+    given-names: Pierre
+    orcid: 'https://orcid.org/0009-0002-1582-4435'
+abstract: >-
+  Python scripts, numerical experiments, and figures accompanying a comparative
+  atlas of the pullback Fisher–Rao and Wasserstein–Otto geometries of parametric
+  probability families. The examples cover location–scale, multivariate Gaussian,
+  linear and nonlinear Gibbs, and push-forward families, with illustrations of
+  metric costs, distances, geodesics, and transport velocity fields.
+keywords:
+  - Information geometry
+  - Fisher–Rao metric
+  - Wasserstein–Otto metric
+  - Quadratic optimal transport
+  - Pullback Riemannian metrics
+  - Statistical manifolds
+  - Location–scale families
+  - Gaussian distributions
+  - Bures–Wasserstein geometry
+  - Gibbs families
+  - Push-forward families
+  - Geodesics
+preferred-citation:
+  type: unpublished
+  title: >-
+    Fisher–Rao and Wasserstein–Otto Geometries of Parametric Probability Families:
+    A Comparative Atlas
+  authors:
+    - family-names: Guilbert
+      given-names: Pierre
+      orcid: 'https://orcid.org/0009-0002-1582-4435'
+  year: 2026
+  notes: Preprint.
