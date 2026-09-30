@@ -47,11 +47,14 @@ HAL and arXiv links will be added when available. If you use these scripts or fi
 
 ```bibtex
 @misc{Guilbert2026FisherRaoWassersteinAtlas,
-  author = {Pierre Guilbert},
-  title  = {Fisher--Rao and Wasserstein--Otto Geometries of
-            Parametric Probability Families: A Comparative Atlas},
-  year   = {2026},
-  note   = {Preprint}
+  author    = {Pierre Guilbert},
+  title     = {Fisher--Rao and Wasserstein--Otto Geometries of
+               Parametric Probability Families: A Comparative Atlas},
+  year      = {2026},
+  note      = {Preprint},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.22921933},
+  url       = {https://doi.org/10.5281/zenodo.22921933}
 }
 ```
 
