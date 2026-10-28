@@ -20,7 +20,7 @@ g_\theta^{\mathrm{FR}}(d\theta,d\theta)
 =\int\frac{u^2}{p_\theta}\,dx,
 \qquad
 g_\theta^{\mathrm{WO}}(d\theta,d\theta)
-=\inf_{-\operatorname{div}(p_\theta v)=u}
+=\inf_{-\mathrm{div}(p_\theta v)=u}
   \int p_\theta\|v\|^2\,dx.
 ```
 
