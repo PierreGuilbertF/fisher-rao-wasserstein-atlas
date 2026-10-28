@@ -42,6 +42,8 @@ python code/pushforward_shear_metrics.py
 
 ## Paper and citation
 
+[Read the full text in HTML](https://pierreguilbertf.github.io/fisher-rao-wasserstein-atlas/papers/atlas/full-text.html), with equations, all 28 figures, and linked references.
+
 [Read the paper and abstract](https://pierreguilbertf.github.io/fisher-rao-wasserstein-atlas/papers/atlas/) · [Zenodo DOI](https://doi.org/10.5281/zenodo.22921933)
 
 If you use these scripts or figures, please cite the paper:
@@ -77,3 +79,5 @@ For modified figures, replace “reproduced” with “adapted” and indicate t
 ## Research website
 
 The static site is in `docs/`. See [website setup](WEBSITE.md) for GitHub Pages activation, indexing checks, and how to add another publication. The site needs no build step or JavaScript.
+
+The HTML edition follows the presentation of the [Pullback Fisher–Rao Atlas](https://pierreguilbertf.github.io/pullback-fisher-rao-atlas/papers/pullback-fisher-rao-atlas/). Rebuild it from the ignored local manuscript with `python3 scripts/build_full_text.py` (Pandoc, Pillow, and pypdfium2 required). The generated HTML and local figure copies are committed so GitHub Pages can serve them directly.

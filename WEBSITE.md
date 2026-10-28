@@ -31,6 +31,14 @@ The current site contains the one paper available in this repository. Add the se
 
 `docs/papers/atlas/paper.pdf` is a web copy of the local manuscript PDF. It is 4.34 MB (below Scholar’s 5 MB limit), and all 72 pages retain identical extracted text. Its figure images are compressed for discovery; the original local PDF is untouched. The publication date (September 22, 2026) comes from the PDF, not the deployment date. The DOI and ORCID come from the repository's existing citation information.
 
-The local `paper_fr.tex` is intentionally ignored and must not be committed. A full-text HTML edition is deferred: the supplied source references `pushforward_geodesic_paths.pdf`, which is absent from the repository. A conversion should preserve all equations, cross-references, references, and figures and be reviewed against the intended manuscript version before publication.
+The local `paper_fr.tex` remains ignored and must not be committed. The full-text HTML edition uses native MathML, numbered figures, linked references, and local image copies. Two illustrations are recovered from the manuscript PDF: the TikZ diagram on page 19 and Figure 28 on page 70. The original PDF is not modified.
 
-Only stage `.gitignore`, `README.md`, `CITATION.cff`, `WEBSITE.md`, and `docs/` for this change. Existing untracked scripts, captions, diagnostics, and the original local PDF are unrelated to the site change.
+To rebuild after manuscript changes, with Pandoc, Python, Pillow, and pypdfium2 available:
+
+```sh
+python3 scripts/build_full_text.py
+```
+
+Review the result against the PDF, particularly the two page-specific illustration crops if pagination changes. The committed HTML and images require no build step or JavaScript to publish. Figure copies retain the original figures’ CC BY 4.0 terms.
+
+Only stage `.gitignore`, `README.md`, `CITATION.cff`, `WEBSITE.md`, `scripts/`, and `docs/` for this change. Existing untracked scripts, captions, diagnostics, and the original local PDF are unrelated to the site change.
