@@ -29,21 +29,22 @@ Fisher–Rao measures relative density change; Wasserstein–Otto measures the l
 ## Scripts and figures
 
 ```text
-visualization_scripts/
+code/
 ├── *.py                 # Figure-generation scripts
-├── *_caption.txt        # Corresponding captions
-└── output/              # Generated figures and numerical diagnostics
+└── *_caption.txt        # Corresponding captions
 ```
 
-Each script documents its dependencies and usage. For example:
+Generated figures and numerical diagnostics are in `figures/`. Each script documents its dependencies and usage. For example:
 
 ```bash
-python visualization_scripts/pushforward_shear_metrics.py
+python code/pushforward_shear_metrics.py
 ```
 
 ## Paper and citation
 
-HAL and arXiv links will be added when available. If you use these scripts or figures, please cite the paper:
+[Read the paper and abstract](https://pierreguilbertf.github.io/fisher-rao-wasserstein-atlas/papers/atlas/) · [Zenodo DOI](https://doi.org/10.5281/zenodo.22921933)
+
+If you use these scripts or figures, please cite the paper:
 
 ```bibtex
 @misc{Guilbert2026FisherRaoWassersteinAtlas,
@@ -72,3 +73,7 @@ For modified figures, replace “reproduced” with “adapted” and indicate t
 ## Author
 
 **Pierre Guilbert** — Independent researcher.
+
+## Research website
+
+The static site is in `docs/`. See [website setup](WEBSITE.md) for GitHub Pages activation, indexing checks, and how to add another publication. The site needs no build step or JavaScript.
